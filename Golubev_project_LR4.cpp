@@ -16,7 +16,8 @@ function<void()> EnterNumber(int& varLink, string label){
 }
 
 //разрабатывается Developer1 - ветка branch_fun_1
-void inputX() {
+void EnterX() {
+    
     do {
         cout << "Введите X (>0): ";
         cin >> x;
