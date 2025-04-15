@@ -30,6 +30,14 @@ void CalcSR(){
 
 //разрабатывается Developer4 - ветка branch_fun_4
 void CalcGR(){
+    if (x <= 0 || y <= 0) {
+        cout << "Ошибка! Сначала введите положительные X и Y.\n";
+        return;
+    }
+
+    double Gr = sqrt(x * y);
+    cout << "Среднее геометрическое чисел " << x << " и " << y
+         << " равно: " << Gr << endl;
 }
 
 //структра меню
