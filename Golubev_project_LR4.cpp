@@ -26,6 +26,10 @@ void EnterX() {
 
 //разрабатывается Developer2 - ветка branch_fun_2
 void EnterY(){
+    do {
+        cout << "Введите Y (>0): ";
+        cin >> y;
+    } while (y <= 0);
 }
 
 //разрабатывается Developer3 - ветка branch_fun_3
